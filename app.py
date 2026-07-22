@@ -8,7 +8,7 @@ df = pd.read_csv("Metro_Interstate_Traffic_Volume.csv")
 
 st.title("Traffic Volume Dashboard")
 
-st.dataframe(df.head()) # show all data in a table
+st.dataframe(df.head()) # shows data in table format
 
 df['date_time'] = pd.to_datetime(df['date_time'])
 
